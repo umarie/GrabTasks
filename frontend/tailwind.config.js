@@ -7,14 +7,7 @@ module.exports = {
  
   ],
   theme: {
-    extend: {
-      colors: {
-        'main-cl': '#122620',
-      },
-      fontFamily: {
-        'myfont': ['myfont', 'Montserrat']
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
