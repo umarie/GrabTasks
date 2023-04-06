@@ -9,7 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "g": "^2.0.1",
+    "headlessui": "^0.0.0",
+    "heroicons": "^2.0.17",
     "next": "13.2.4",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
