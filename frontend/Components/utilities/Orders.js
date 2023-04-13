@@ -1,11 +1,11 @@
 import react from "react";
 import Image from "next/image";
-import img1 from "/public/Images/orders1.png";
+import img1 from "/public/Images/Orders_Page/orders1.png";
 import avatar from "/public/Images/Smavatar.png";
-import clock from "/public/Images/clock.png";
-import dollar from "/public/Images/dollar.png";
-import submit from "/public/Images/submit.png";
-import cancel from "/public/Images/cancel.png";
+import clock from "/public/Images/Orders_Page/clock.png";
+import dollar from "/public/Images/Orders_Page/dollar.png";
+import submit from "/public/Images/Orders_Page/submit.png";
+import cancel from "/public/Images/Orders_Page/cancel.png";
 // const order={
 //     title:"Design a custom built Website for you.",
 //     description:"Design an Ecommerce store with built-in API’s etc..",

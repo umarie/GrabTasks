@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import logoFull from "../../public/Images/logofull.jpg";
-import userFrame from "../../public/Images/profile.jpg";
-import close from "../../public/Images/close.jpg";
+import logoFull from "../../public/Images/Header/logo.svg";
+import userFrame from "../../public/Images/Header/profile.jpg";
+import close from "../../public/Images/Header/close.jpg";
 import Image from 'next/image'
 
 export default function header() {
@@ -37,7 +37,7 @@ export default function header() {
           <Image
             src={logoFull} 
             alt="GrabTasks Logo"
-            width="40%"
+            width="20px"
             className="ml-10 mt-3 max-w-[240px]"
             loading="lazy"
           />
