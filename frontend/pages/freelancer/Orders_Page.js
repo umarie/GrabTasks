@@ -7,8 +7,8 @@ import { useState, useEffect } from "react";
 import Orders from "@/Components/utilities/Orders";
 import Image from "next/image";
 import arrow from "/public/Images/Orders_Page/arrow.png";
-import img1 from "/public/Images/Orders_Page/orders1.png";
-import img2 from "/public/Images/Orders_Page/img2.png";
+import img1 from "/public/Images/Orders_Page/orders1.svg";
+import img2 from "/public/Images/Orders_Page/orders2.svg";
 import milestone from "/public/Images/Orders_Page/milestone.png";
 import milestone2 from "/public/Images/Orders_Page/milestone2.png";
 import milestone3 from "/public/Images/Orders_Page/milestone3.png";
@@ -75,7 +75,7 @@ const Orders_Page = () => {
       window.addEventListener("resize",chekPhone)
 
   return (
-    <>
+    <div className="font-montserrat">
       {!phone?<div>
         <button className=" flex flex-row gap-4 bg-black ml-12 mt-28 pt-3 pb-4 pr-4 pl-3 font-bold text-base rounded text-white">
         <Image width={"24%"} height={"24%"} src={arrow} alt="arrow" />
@@ -151,7 +151,7 @@ const Orders_Page = () => {
       <Orders order={order} />
       <Orders order={order2} />
       <Orders order={order} />
-    </>
+    </div>
   );
 };
 
